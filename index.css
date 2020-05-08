@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,700");
+
+body {
+    font-family: 'Muli', sans-serif;
+    font-size: calc(12px + 0.33vw);
+    -webkit-font-smoothing: antialiased;
+    margin: auto;
+    padding: 5vh 10vw;
+    max-width: 32em;
+}
+.Socialmedia {
+    color: #321d;
+    text-decoration:black;
+    font-weight: bolder;
+    background:linear-gradient(to top, #9a4e4e 35%, transparent 20%)
+}
+.Socialmedia:hover,mark {
+    background-color: #ffd6bf;
+}
+.My_image {
+    margin-top:6%;
+    flex: 1;
+
+}
+.My_image img{
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 270px;
+    border-radius: 60%;
+}
+p {
+    line-height: 180%;
+    font-size: 1.3em;
+    color: #572255;
+    margin-bottom: 5%;
+}
